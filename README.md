@@ -1,3 +1,2 @@
-# karuniaperjuangan.github.io
 
-karuniaperjuangan.github.io
+https://karuniaperjuangan.github.io/
