@@ -1,2 +1,0 @@
-
-https://karuniaperjuangan.github.io/
