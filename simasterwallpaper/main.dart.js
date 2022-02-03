@@ -16007,6 +16007,7 @@ g.f=e
 e.US()
 d=A.agh(A.agh(A.a(h.b,"document"),"table")[0],"td")
 new A.a9(d,new A.a6v(),A.aa(d).i("a9<1,k>")).T(0,new A.a6w(m))
+A.mB(m)
 c=new A.y7().IA(m)
 b=new A.a5V().a1x(new A.y7().Iz(m),c)
 for(j=o.db,h=j.d8$,a=0;a<b.length;++a){l.push(b[a].of())
@@ -16038,8 +16039,7 @@ else if(B.c.w(a,"Jumat"))return 4
 else if(B.c.w(a,"Sabtu"))return 5
 else if(B.c.w(a,"Minggu"))return 6
 else return 7},
-afY(a){A.mB(a)
-return J.abh(B.b.Gr(A.b(a.split(" "),t.s),new A.a68()),"-")[0]},
+afY(a){return J.abh(B.b.Gr(A.b(a.split(" "),t.s),new A.a68()),"-")[0]},
 a6v:function a6v(){},
 a6w:function a6w(a){this.a=a},
 a6x:function a6x(){},
@@ -53746,11 +53746,12 @@ s=r.a
 return s.charCodeAt(0)==0?s:s},
 $S:343}
 A.a6w.prototype={
-$1(a){var s,r,q=new A.y7().a17(a),p=A.cM("<[^>]*>|&[^;]+;",!0)
-p=A.ej(a,p," ")
-s=A.cM("[\\s+]{2,}",!0)
-r=B.c.iT(A.ej(p,s," "))
-if(r!=="-"&&!q)this.a.push(r)},
+$1(a){var s,r
+new A.y7().a17(a)
+s=A.cM("<[^>]*>|&[^;]+;",!0)
+s=A.ej(a,s," ")
+r=A.cM("[\\s+]{2,}",!0)
+this.a.push(B.c.iT(A.ej(s,r," ")))},
 $S:54}
 A.a6x.prototype={
 $2(a,b){return B.c.aq(a.d,b.d)},
@@ -53760,10 +53761,10 @@ a17(a){var s
 try{A.dj(a,null)
 return!0}catch(s){return!1}},
 IA(a){var s,r=A.b([],t.s)
-for(s=3;s<a.length;s+=4)r.push(a[s])
+for(s=6;s<a.length;s+=7)r.push(a[s])
 return r},
 Iz(a){var s,r=A.b([],t.s)
-for(s=1;s<a.length;s+=4)r.push(a[s])
+for(s=2;s<a.length;s+=7)r.push(a[s])
 return r}}
 A.a5V.prototype={
 a1x(a,b){var s,r,q,p,o,n,m,l,k=" Kelas: ",j=" Ruang ",i=A.b([],t.dm)
@@ -53789,7 +53790,7 @@ r=A.acr(s,A.ao8(),t.lG)
 q=t.nJ
 q=new A.ry(A.adB(A.b([],t.t),t.S),A.b([],t.om),A.e1(t.X,t.DW),new A.iJ(q),new A.iJ(q),!1,!1)
 q.rt()
-return new A.rp(new A.lJ(new A.B6(n,m,l,r,A.acr(s,q,t.A9),p),p),"Flutter Demo",o,p)}}
+return new A.rp(new A.lJ(new A.B6(n,m,l,r,A.acr(s,q,t.A9),p),p),"Simaster Wallpaper Generator",o,p)}}
 A.f9.prototype={
 of(){var s=this
 return A.I(["matkul_name",s.a,"kelas_name",s.b,"start_day",s.c,"start_time",s.d,"second_day",s.e,"second_time",s.f],t.N,t.z)}}
