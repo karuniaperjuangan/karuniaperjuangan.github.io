@@ -54014,7 +54014,7 @@ p=A.a(q.d,l)
 q=A.a(q.a,k).b
 o=a.a+" ("+a.b+")"
 n=$.bo.a_()
-q=A.eJ(A.ko(o,3,B.ek,A.eO(m,m,B.p,m,m,m,m,m,"KGRedHands",m,m,22*(A.a(n.d,l)/A.a(n.a,k).b),m,B.u,m,m,!0,m,0,m,m,m,m,m,m),m,m),m,230*(p/q))
+q=A.eJ(A.ko(o,4,B.ek,A.eO(m,m,B.p,m,m,m,m,m,"KGRedHands",m,m,22*(A.a(n.d,l)/A.a(n.a,k).b),m,B.u,m,m,!0,m,0,m,m,m,m,m,m),m,m),m,230*(p/q))
 p=$.bo.a_()
 return A.dX(m,A.a8u(A.b([r,s,q,A.eJ(m,8*(A.a(p.d,l)/A.a(p.a,k).b),m)],t.E),B.cj,B.bN,B.cK),m,m,m,m,m,new A.bJ(0,j,0,j),m)},
 $S:351}
